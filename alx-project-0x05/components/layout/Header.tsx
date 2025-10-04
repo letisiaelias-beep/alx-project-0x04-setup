@@ -1,7 +1,10 @@
 import Link from "next/link";
+// Update the import path if Button is located elsewhere, for example:
 import Button from "../common/Button";
+// Or, if the file is named Button.tsx in the common folder, ensure it exists:
+// import Button from "../common/Button";
 import { usePathname } from "next/navigation";
-import { useCount } from "@/context/CountContext"";
+import { useCount } from "@/context/CountContext";
 
 const Header: React.FC = () => {
 
